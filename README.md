@@ -1,3 +1,5 @@
+[게시판 초기설정 참고](https://github.com/YuumiNam/django-howtouse/blob/master/BulletinProject/%EA%B2%8C%EC%8B%9C%ED%8C%90%EC%B4%88%EA%B8%B0%EC%84%A4%EC%A0%95.md)
+
 # django 설치방법
 
 ### 1. django 설치
