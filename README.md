@@ -45,6 +45,6 @@ flush privileges;
 
 
 ### django 사용시 주의할점
-data 말고 schema가 변경되는 작업(column변경, table변경 등등)은 mariaDB에서 변경하지말고
+data 말고 schema가 변경되는 작업(column변경, table변경 등등)은 mariaDB에서 변경하지말고 \
 무조건 jango에서 변경해야함!! \
 안그러면 둘 사이의 충돌이생길수있음
