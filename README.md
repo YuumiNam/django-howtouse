@@ -29,6 +29,7 @@ django-admin startproject board .
 
 ### 2. MariaDB database 생성
 1 (Root DB에서)
+``` MySql
 create database django_db default character set utf8mb4;
 
 create user 'django'@'localhost' identified by 'django';
@@ -38,6 +39,7 @@ grant all privileges on django_db.* to 'django'@'localhost';    <<<    localhost
 grant all privileges on django_db.* to 'django'@'%';    <<<    다른 곳에서도 접속 가능
 
 flush privileges;
+```
 
 2 홈으로 가서 만든 DB의 connection 생성
 <br/><br/><br/>
